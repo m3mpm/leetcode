@@ -6,27 +6,33 @@ This problem asks you to find the length of the last word in a given string. A w
 
 Given a string `s` consisting of words and spaces, return the length of the last word in the string.
 
-## Examples
+### Examples
 
 **Example 1:**
 
-*   **Input:** `s = "Hello World"`
-*   **Output:** `5`
-*   **Explanation:** The last word is "World" with length 5.
+```
+Input: s = "Hello World"
+Output: 5
+Explanation: The last word is "World" with length 5.
+```
 
 **Example 2:**
 
-*   **Input:** `s = "   fly me   to   the moon  "`
-*   **Output:** `4`
-*   **Explanation:** The last word is "moon" with length 4.
+```
+Input: s = "   fly me   to   the moon  "
+Output: 4
+Explanation: The last word is "moon" with length 4.
+```
 
 **Example 3:**
 
-*   **Input:** `s = "luffy is still joyboy"`
-*   **Output:** `6`
-*   **Explanation:** The last word is "joyboy" with length 6.
+```
+Input: s = "luffy is still joyboy"
+Output: 6
+Explanation: The last word is "joyboy" with length 6.
+```
 
-## Constraints
+### Constraints
 
 *   `1 <= s.length <= 10^4`
 *   `s` consists of only English letters and spaces ' '.
@@ -38,7 +44,7 @@ Given a string `s` consisting of words and spaces, return the length of the last
 
 В этой задаче вам предлагается найти длину последнего слова в заданной строке. Слово определяется как максимальная подстрока, состоящая из символов без пробелов.
 
-### Описание проблемы
+## Описание проблемы
 
 Дана строка `s`, состоящую из слов и пробелов, верните длину последнего слова в строке.
 
@@ -68,7 +74,7 @@ Output: 6
 Explanation: The last word is "joyboy" with length 6.
 ```
 
-## Ограничения
+### Ограничения
 
 *   `1 <= s.length <= 10^4`
 *   Строка `s` состоит только из английских букв и пробелов.
